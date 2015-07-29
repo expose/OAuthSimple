@@ -1,0 +1,20 @@
+{
+  "name": "baglerit/oauthsimple",
+  "description": "Composer package for the PHP version of the OAuthSimple Class by @jrconlin",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Dave Bagler",
+      "email": "dave@baglerit.com"
+    },
+    {
+      "name": "JR Colin",
+      "email": "jrconlin@jrconlin.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BaglerIT\\OAuthSimple\\": "src/"
+    }
+  }
+}
