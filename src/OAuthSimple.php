@@ -452,7 +452,7 @@ class OAuthSimple
         $return_array = array();
 
         foreach ($this->parameters as $paramName => $paramValue) {
-          debug($paramValue);
+          echo $paramValue."<br/>";
             if (preg_match('/w+_secret/', $paramName)
                 || $paramName == "oauth_signature") {
                 continue;
