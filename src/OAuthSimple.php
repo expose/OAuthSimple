@@ -461,7 +461,7 @@ class OAuthSimple
             if (strpos($paramValue, '@') !== 0) {
 
                 try {
-                    $file_exists = file_exists(substr($paramValue, 1));
+                    $file_exists = file_exists(substr($paramValue, 0));
                 } catch (\ErrorException $e) {
                     $file_exists = false;
                 }
