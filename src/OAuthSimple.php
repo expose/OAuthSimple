@@ -452,13 +452,14 @@ class OAuthSimple
         $return_array = array();
 
         foreach ($this->parameters as $paramName => $paramValue) {
+          echo $paramValue."<br/>";
             if (preg_match('/w+_secret/', $paramName)
                 || $paramName == "oauth_signature") {
                 continue;
             }
             // Read parameters from a file. Hope you're practicing safe PHP.
             if (strpos($paramValue, '@') !== 0) {
-                
+
                 try {
                     $file_exists = file_exists(substr($paramValue, 1));
                 } catch (\ErrorException $e) {
