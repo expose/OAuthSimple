@@ -1,4 +1,4 @@
-<?php namespace BaglerIT\OAuthSimple;
+<?php namespace expose\OAuthSimple;
 
 /**
  * OAuthSimple - A simpler version of OAuth
