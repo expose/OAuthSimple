@@ -1,4 +1,4 @@
-<?php namespace BaglerIT\OAuthSimple;
+<?php namespace expose\OAuthSimple;
 
 /**
  * Class OAuthSimpleException
